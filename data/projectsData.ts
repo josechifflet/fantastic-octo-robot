@@ -7,20 +7,19 @@ interface Project {
 
 const projectsData: Project[] = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    title: 'Example Project 1',
+    description: `This is a sample project description. You can replace this with information about
+    your actual projects, including details about the technologies used and what problems
+    they solve.`,
+    imgSrc: '/static/images/logo.png',
+    href: 'https://github.com/yourusername/project1',
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    title: 'Example Project 2',
+    description: `Another sample project description. Add your own projects here with links to their
+    repositories, live demos, or detailed blog posts about the development process.`,
+    imgSrc: '/static/images/logo.png',
+    href: 'https://github.com/yourusername/project2',
   },
 ]
 
